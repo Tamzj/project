@@ -1,0 +1,40 @@
+{
+  "name": "per_project",
+  "version": "1.0.0",
+  "description": "项目git与模块化开发",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tamzj/project.git"
+  },
+  "keywords": [
+    "git",
+    "nodejs"
+  ],
+  "author": "谭志坚",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tamzj/project/issues"
+  },
+  "homepage": "https://github.com/Tamzj/project#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-less": "^3.4.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "http-server": "^0.11.1"
+  }
+}
