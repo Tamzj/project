@@ -1,0 +1,23 @@
+
+
+#header{
+    width:100%;
+    height:60px;
+    background:#fff;
+    h1{width:325px;height:60px;background:url('../img/logo2.png') no-repeat;}
+
+
+}
+#main{
+    width:100%;
+    height:700px;
+    background:#F7F2EC;
+    .main_l{width:840px;height:700px;background:url('../img/reg.png') no-repeat;float:left;};
+    .main_r{width:840px;height:700px;background-color:#58bc58;float:right;}
+
+}
+#footer{
+    width:100%;
+    height:110px;
+    background:#fff;
+}
