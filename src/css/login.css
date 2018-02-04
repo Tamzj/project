@@ -12,11 +12,9 @@
 
 #main .main_r .reg .reg_title { width: 420px; /* height: 52px; */ }
 
-#main .main_r .reg .reg_title a { display: inline-block; width: 208px; height: 52px; color: #464646; text-align: center; line-height: 52px; font-size: 16px; }
+#main .main_r .reg .reg_title a { display: inline-block; width: 208px; height: 52px; color: #AFAFAF; text-align: center; line-height: 52px; font-size: 16px; }
 
-#main .main_r .reg .reg_title a:first-child { font-weight: bold; border-bottom: 2px solid #464646; color: #464646; }
-
-#main .main_r .reg .reg_title a:nth-child(2) { color: #AFAFAF; }
+#main .main_r .reg .reg_title a:nth-child(2) { font-weight: bold; color: #464646; border-bottom: 2px solid #464646; }
 
 #main .main_r .reg .reg_title a:hover { font-weight: bold; border-bottom: 2px solid #464646; color: #464646; }
 
@@ -24,29 +22,17 @@
 
 #main .main_r .reg .reg_main li:first-child #username { width: 300px; height: 35px; border: 1px solid #D8D8D8; padding-left: 5px; }
 
-#main .main_r .reg .reg_main li:nth-child(2) p { font-size: 10px; margin-top: 15px; }
+#main .main_r .reg .reg_main li:nth-child(2) { margin-top: 20px; }
 
-#main .main_r .reg .reg_main li:nth-child(2) p a { color: #005BA1; }
+#main .main_r .reg .reg_main li:nth-child(2) #password { width: 300px; height: 35px; border: 1px solid #D8D8D8; padding-left: 5px; }
 
-#main .main_r .reg .reg_main li:nth-child(3) { margin-top: 15px; }
+#main .main_r .reg .reg_main li:nth-child(3) { margin-top: 15px; padding-left: 190px; }
 
-#main .main_r .reg .reg_main li:nth-child(3) #vCode { width: 125px; height: 35px; border: 1px solid #D8D8D8; vertical-align: middle; padding-left: 5px; }
+#main .main_r .reg .reg_main li:nth-child(3) a { display: inline-block; font-size: 10px; padding: 0 3px 0 3px; }
 
-#main .main_r .reg .reg_main li:nth-child(3) span { display: inline-block; width: 78px; height: 35px; border: 1px solid #000; line-height: 35px; text-align: center; font-size: 20px; background: #D7D7D7; vertical-align: middle; margin: 0 10px 0 5px; }
+#main .main_r .reg .reg_main li:nth-child(4) { margin-top: 20px; }
 
-#main .main_r .reg .reg_main li:nth-child(3) a { font-size: 10px; color: #005BA1; }
-
-#main .main_r .reg .reg_main li:nth-child(4) { margin-top: 15px; }
-
-#main .main_r .reg .reg_main li:nth-child(4) #mCode { width: 188px; height: 35px; border: 1px solid #D8D8D8; vertical-align: middle; padding-left: 5px; }
-
-#main .main_r .reg .reg_main li:nth-child(4) span { display: inline-block; width: 100px; height: 35px; border: 1px solid #D8D8D8; line-height: 35px; text-align: center; font-size: 10px; background: #F7F7F9; vertical-align: middle; margin-left: 5px; color: #464646; }
-
-#main .main_r .reg .reg_main li:nth-child(5) { margin-top: 10px; padding: 0 0 10px 255px; }
-
-#main .main_r .reg .reg_main li:nth-child(5) a { font-size: 10px; color: #464646; }
-
-#main .main_r .reg .reg_main li:nth-child(6) button { width: 300px; height: 40px; background: #D2041F; font-size: 15px; color: #fff; letter-spacing: 20px; border-radius: 20px; }
+#main .main_r .reg .reg_main li:nth-child(4) button { width: 300px; height: 40px; background: #D2041F; font-size: 15px; color: #fff; letter-spacing: 20px; border-radius: 20px; }
 
 #main .main_r .reg .reg_other { width: 420px; /* height: 235px; */ padding: 28px 0 0 60px; }
 
