@@ -1,1 +1,268 @@
+@charset "UTF-8";
+#banner {
+  width: 100%;
+  padding-top: 20px;
+}
 
+#banner .showbox {
+  width: 1200px;
+  height: 610px;
+  overflow: hidden;
+}
+
+#banner .showbox li {
+  width: 1200px;
+  height: 610px;
+  float: left;
+}
+
+#main {
+  width: 100%;
+}
+
+#main .main_top {
+  width: 1200px;
+  height: 120px;
+  padding: 30px 0 0 44px;
+}
+
+#main .main_top a {
+  display: inline-block;
+  width: 185px;
+  height: 62px;
+  margin-right: 100px;
+}
+
+#main .main_top a:first-child {
+  background: url("../img/zouxiu.png") no-repeat -160px -120px;
+}
+
+#main .main_top a:nth-child(2) {
+  background: url("../img/zouxiu.png") no-repeat -355px -120px;
+}
+
+#main .main_top a:nth-child(3) {
+  background: url("../img/zouxiu.png") no-repeat -550px -120px;
+}
+
+#main .main_top a:nth-child(4) {
+  background: url("../img/zouxiu.png") no-repeat -745px -120px;
+}
+
+#main .main_new {
+  width: 1200px;
+  height: 366px;
+}
+
+#main .main_new p {
+  width: 1200px;
+  height: 66px;
+  text-align: center;
+}
+
+#main .main_new p img {
+  display: inline-block;
+  width: 300px;
+  height: 66px;
+}
+
+#main .main_new li {
+  width: 600px;
+  height: 300px;
+  float: left;
+  position: relative;
+}
+
+#main .main_new li p {
+  width: 200px;
+  height: 90px;
+  position: absolute;
+  top: 108px;
+  left: 215px;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+
+#main .main_new li p span {
+  color: #fff;
+  font-family: '黑体';
+  padding-top: 10px;
+  line-height: 25px;
+}
+
+#main .main_new li p span:first-child {
+  display: block;
+  font-size: 40px;
+}
+
+#main .main_new li p span:nth-child(2) {
+  display: block;
+  font-size: 15px;
+}
+
+#main .main_jh {
+  width: 1200px;
+  /* height: 1928px; */
+}
+
+#main .main_jh p {
+  width: 1200px;
+  height: 100px;
+  text-align: center;
+}
+
+#main .main_jh p img {
+  display: inline-block;
+  width: 300px;
+  height: 100px;
+}
+
+#main .main_jh li {
+  width: 397px;
+  height: 288px;
+  float: left;
+  margin: 3px 3px 0 0;
+}
+
+#main .main_hot {
+  width: 1200px;
+  height: 1600px;
+}
+
+#main .main_hot p.main_hotf {
+  width: 1200px;
+  height: 100px;
+  text-align: center;
+}
+
+#main .main_hot p.main_hotf img {
+  display: inline-block;
+  width: 300px;
+  height: 100px;
+}
+
+#main .main_hot li {
+  width: 600px;
+  height: 300px;
+  float: left;
+  position: relative;
+  margin-top: 40px;
+}
+
+#main .main_hot li:first-child {
+  margin-top: 0;
+}
+
+#main .main_hot li:nth-child(2) {
+  margin-top: 0;
+}
+
+#main .main_hot li p {
+  width: 330px;
+  height: 90px;
+  position: absolute;
+  top: 108px;
+  left: 215px;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+
+#main .main_hot li p span {
+  color: #fff;
+  font-family: '黑体';
+  padding-top: 10px;
+  line-height: 25px;
+}
+
+#main .main_hot li p span:first-child {
+  display: block;
+  font-size: 40px;
+}
+
+#main .main_hot li p span:nth-child(2) {
+  display: block;
+  font-size: 15px;
+}
+
+#main .main_hot p.main_hots {
+  width: 1200px;
+  height: 116px;
+  text-align: center;
+  padding: 40px 0 40px 0;
+}
+
+#main .main_hot p.main_hots img {
+  display: inline-block;
+  width: 163px;
+  height: 38px;
+}
+
+#main .main_hot .main_hotl {
+  width: 1200px;
+  height: 400px;
+}
+
+#main .main_find {
+  width: 1200px;
+  height: 2228px;
+}
+
+#main .main_find p.main_findf {
+  width: 1200px;
+  height: 116px;
+  text-align: center;
+}
+
+#main .main_find p.main_findf img {
+  display: inline-block;
+  width: 300px;
+  height: 112px;
+}
+
+#main .main_find li {
+  float: left;
+  width: 287px;
+  height: 490px;
+  margin: 17px 17px 0 0;
+}
+
+#main .main_find li:first-child {
+  margin: 0 17px 0 0;
+}
+
+#main .main_find li:nth-child(2) {
+  margin: 0 17px 0 0;
+}
+
+#main .main_find li:nth-child(3) {
+  margin: 0 17px 0 0;
+}
+
+#main .main_find li:nth-child(4) {
+  margin: 0;
+}
+
+#main .main_find li:nth-child(8) {
+  margin: 17px 0 0 0;
+}
+
+#main .main_find li:nth-child(12) {
+  margin: 17px 0 0 0;
+}
+
+#main .main_find li:nth-child(16) {
+  margin: 17px 0 0 0;
+}
+
+#main .main_find p.main_findl {
+  width: 1200px;
+  height: 125px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+#main .main_find p.main_findl img {
+  display: inline-block;
+  width: 161px;
+  height: 36px;
+}
