@@ -1,4 +1,10 @@
 @charset "UTF-8";
+#nav .backTop {
+  position: fixed;
+  top: 135px;
+  right: 0;
+}
+
 #banner {
   width: 100%;
   padding-top: 20px;
