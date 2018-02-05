@@ -1,0 +1,23 @@
+#main .main_good {
+  width: 1200px;
+  height: 738px;
+  background: pink;
+}
+
+#main .main_info {
+  width: 1200px;
+  height: 243px;
+  background: green;
+}
+
+#main .main_show {
+  width: 1200px;
+  height: 3850px;
+  background: red;
+}
+
+#main .main_comment {
+  width: 1200px;
+  height: 1584px;
+  background: blue;
+}
