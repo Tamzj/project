@@ -1,4 +1,334 @@
-#main {
-  width: 100%;
-  height: 800px;
+#main .main_content {
+  padding: 0 100px 0 100px;
+  width: 1200px;
+}
+
+#main .main_t {
+  width: 1000px;
+  height: 283px;
+}
+
+#main .main_t p.main_tt {
+  width: 1000px;
+  height: 120px;
+}
+
+#main .main_t .main_class {
+  width: 1000px;
+  height: 78px;
+  border: 1px solid #ccc;
+}
+
+#main .main_t .main_class tr td {
+  background: #EFEFEF;
+  padding: 10px 0 0 10px;
+  width: 176px;
+}
+
+#main .main_t .main_class tr:first-child td:first-child {
+  width: 77px;
+  background: #fff;
+  padding: 15px 0 0 10px;
+  vertical-align: top;
+  border-right: 1px solid #ccc;
+}
+
+#main .main_t .main_class tr:first-child td:last-child {
+  width: 110px;
+  padding: 10px 0 0 0;
+}
+
+#main .main_t .main_class tr:first-child td:last-child a {
+  display: inline-block;
+  width: 42px;
+  height: 15px;
+}
+
+#main .main_t .main_class tr:first-child td:last-child a:first-child {
+  background: url("../img/zouxiu.png") no-repeat -200px -80px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+#main .main_t .main_class tr:first-child td:last-child a:last-child {
+  background: url("../img/zouxiu.png") no-repeat -255px -80px;
+  vertical-align: middle;
+}
+
+#main .main_t ul {
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+#main .main_t ul li {
+  float: left;
+  height: 45px;
+  padding: 15px 10px 0 10px;
+}
+
+#main .main_t ul li:first-child {
+  color: #000;
+  padding-right: 25px;
+  background: #F9F9F9;
+}
+
+#main .main_t ul li:last-child {
+  margin-left: 100px;
+  color: #000;
+  padding: 15px 10px 0 10px;
+}
+
+#main .main_t ul li:last-child span {
+  display: inline-block;
+  width: 35px;
+  height: 20px;
+  background: #fff;
+  border: 1px solid #ccc;
+  vertical-align: middle;
+}
+
+#main .main_t ul li:last-child button {
+  width: 35px;
+  height: 20px;
+  background: #F6F6F6;
+  border: 1px solid #ccc;
+  vertical-align: middle;
+}
+
+#main .main_t p.main_tb {
+  width: 1000px;
+  height: 40px;
+}
+
+#main .main_c {
+  width: 1000px;
+  height: 3442px;
+  background: yellow;
+}
+
+#main .main_c .main_ct {
+  height: 47px;
+  background: #F6F6F6;
+}
+
+#main .main_c .main_ct .main_ctl {
+  float: left;
+  padding: 15px 0 0 20px;
+  margin-right: 30px;
+}
+
+#main .main_c .main_ct .main_ctl ul li {
+  float: left;
+  height: 20px;
+  border: 1px solid #ccc;
+  color: #000;
+  padding: 0 10px 0 15px;
+}
+
+#main .main_c .main_ct .main_ctl ul li:first-child {
+  color: #f60;
+  background: #EFEFEF;
+}
+
+#main .main_c .main_ct .main_ctl ul li i {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+}
+
+#main .main_c .main_ct .main_ctl ul li i:first-of-type {
+  background: url("../img/zouxiu.png") no-repeat -300px -80px;
+}
+
+#main .main_c .main_ct .main_ctl ul li i:nth-of-type(2) {
+  background: url("../img/zouxiu.png") no-repeat -315px -80px;
+}
+
+#main .main_c .main_ct .main_ctl ul li i:nth-of-type(3) {
+  background: url("../img/zouxiu.png") no-repeat -315px -80px;
+}
+
+#main .main_c .main_ct .main_ctl ul:hover {
+  color: #f60;
+}
+
+#main .main_c .main_ctc {
+  float: left;
+  padding-top: 15px;
+}
+
+#main .main_c .main_ctr {
+  float: right;
+  padding-top: 15px;
+}
+
+#main .main_c .main_ctr span:nth-child(2) {
+  margin-right: 10px;
+}
+
+#main .main_c .main_ctr a i {
+  display: inline-block;
+  width: 5px;
+  height: 9px;
+}
+
+#main .main_c .main_ctr a i:first-child {
+  background: url("../img/zouxiu.png") no-repeat -325px -80px;
+}
+
+#main .main_c .main_ctr a i:first-child:nth-child(2) {
+  background: url("../img/zouxiu.png") no-repeat -335px -80px;
+}
+
+#main .main_c .main_cc li {
+  float: left;
+  width: 234px;
+  height: 392px;
+  margin-right: 15px;
+  border: 1px solid #ccc;
+}
+
+#main .main_c .main_cc li:nth-child(4n) {
+  margin-right: none;
+}
+
+#main .main_c .main_cc li p {
+  width: 234px;
+  height: 80px;
+  padding: 15px 0 0 10px;
+}
+
+#main .main_c .main_cc li p span {
+  display: block;
+  line-height: 15px;
+}
+
+#main .main_c .main_cc li p span:nth-of-type(2) {
+  font-size: 15px;
+  color: #D80C18;
+}
+
+#main .main_c .main_cb {
+  padding-top: 50px;
+}
+
+#main .main_c .main_cb li {
+  height: 25px;
+  float: left;
+  margin-right: 5px;
+  text-align: center;
+  line-height: 25px;
+}
+
+#main .main_c .main_cb li:first-child, #main .main_c .main_cb li:nth-last-child(2) {
+  width: 40px;
+  border: 1px solid #ccc;
+}
+
+#main .main_c .main_cb li:nth-child(2), #main .main_c .main_cb li:nth-last-child(3) {
+  width: 40px;
+  border: 1px solid #ccc;
+}
+
+#main .main_c .main_cb li:last-child {
+  width: 40px;
+}
+
+#main .main_c .main_cb li:nth-child(3) {
+  margin-right: 0;
+}
+
+#main .main_c .main_cb li:nth-child(3) span {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border: 1px solid #ccc;
+  margin-right: 5px;
+}
+
+#main .main_b {
+  width: 1000px;
+  height: 530px;
+}
+
+#main .main_b .main_search {
+  width: 1000px;
+  height: 88px;
+  background: #F6F6F6;
+  padding: 32px 0 0 220px;
+}
+
+#main .main_b .main_search .search {
+  width: 475px;
+  height: 40px;
+  background: #fff;
+  border: 1px solid #f60;
+  vertical-align: middle;
+}
+
+#main .main_b .main_search .main_btn {
+  width: 80px;
+  height: 40px;
+  background: #f60;
+  color: #fff;
+  font-size: 15px;
+  vertical-align: middle;
+}
+
+#main .main_b .main_title {
+  width: 1000px;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 5px;
+  color: #000;
+  border-bottom: 1px solid #ccc;
+}
+
+#main .main_b .main_like {
+  width: 1000px;
+  height: 378px;
+  padding: 0 27px 0 27px;
+  position: relative;
+}
+
+#main .main_b .main_like li {
+  float: left;
+  width: 189px;
+  height: 378px;
+}
+
+#main .main_b .main_like li p {
+  width: 189px;
+  height: 80px;
+  padding: 15px 0 0 10px;
+}
+
+#main .main_b .main_like li p span {
+  display: block;
+  line-height: 15px;
+}
+
+#main .main_b .main_like li p span:nth-of-type(2) {
+  font-size: 15px;
+  color: #D80C18;
+}
+
+#main .main_b .main_like i {
+  display: inline-block;
+  position: absolute;
+  top: 180px;
+}
+
+#main .main_b .main_like i.prev {
+  left: 0;
+  width: 12px;
+  height: 24px;
+  background: url("../img/zouxiu.png") no-repeat -350px -80px;
+}
+
+#main .main_b .main_like i.next {
+  right: 0;
+  width: 12px;
+  height: 24px;
+  background: url("../img/zouxiu.png") no-repeat -370px -80px;
 }
