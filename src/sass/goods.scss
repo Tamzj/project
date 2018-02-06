@@ -1,4 +1,21 @@
-#main .main_good{width: 1200px;height: 738px;background: pink;}
-#main .main_info{width: 1200px;height: 243px;background: green;}
-#main .main_show{width: 1200px;height: 3850px;background: red;}
+#main .main_good{width: 1200px;height: 738px;background: pink;
+    .main_title{width: 1200px;height: 42px;}
+}
+#main .main_info{width: 1200px;height: 4092px;
+    .main_infot{width: 1000px;height: 38px;
+        li{
+            float: left;padding: 0 42px 0 42px;height: 38px;line-height: 38px;border-right: 1px solid #fff;
+            &:last-child{border-right: none;padding: 0 0 0 266px;
+                span{display: inline-block;height: 25px;text-align: center;line-height: 25px;
+                    &:first-child{width: 50px;font-size: 20px;color: #CC1700;}
+                    &:nth-child(2){width: 98px;background: #74B554;}
+
+                }
+            }
+            &:not(:last-child):hover{background: #f60;color: #fff;}
+            
+        }
+    }
+    .main_infob{width: 1200px;height: 4054px;}
+}
 #main .main_comment{width: 1200px;height: 1584px;background: blue;}
