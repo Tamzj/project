@@ -29,14 +29,14 @@ gulp.task('server',function(){
         proxy:'http://localhost:10086',
 
         //监听文件修改
-        // files:['./src/**/*.html','./src/css/*.css','./src/api/*.php']
-        files:['./src/**/index.html','./src/css/index.css','./src/api/index.php']
+        files:['./src/**/*.html','./src/css/*.css','./src/api/*.php']
+        // files:['./src/**/index.html','./src/css/index.css','./src/api/index.php']
 
         
 
     });
     //监听sass修改
-    // gulp.watch('./src/sass/*.scss',['cs']);
-    gulp.watch('./src/sass/index.scss',['cs']);
+    gulp.watch('./src/sass/*.scss',['cs']);
+    // gulp.watch('./src/sass/index.scss',['cs']);
 
 });
