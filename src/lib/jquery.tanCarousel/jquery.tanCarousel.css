@@ -1,0 +1,8 @@
+.tan-carousel{position:relative;width:1200px;height:538px;margin:0 auto;overflow: hidden;}
+.tan-carousel ul{list-style:none;padding:0;margin:0;position:absolute;top:0;left:0;}
+.tan-carousel img{display: block;}
+.tan-carousel .next,.tan-carousel .prev{position:absolute;left:0;top:50%;transform: translate(0,-50%);padding:10px 5px;width:30px;height:50px;line-height:50px;background-color: rgba(0,0,0,.3);text-align:center;color:#fff;opacity:0;}
+.tan-carousel .next{left:auto;right:0;}
+.tan-carousel .page{position: absolute;right:550px;bottom:15px;}
+.tan-carousel .page span{display:inline-block;margin:0 5px;width:10px;height:10px;line-height:10px;text-align:center;background-color:#efefef;border-radius:50%;}
+.tan-carousel .page span.active{background-color:#f60;color:#fff;} 

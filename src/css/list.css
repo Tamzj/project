@@ -1,3 +1,45 @@
+#nav {
+  position: relative;
+}
+
+#nav .backTop {
+  width: 70px;
+  height: 258px;
+  position: fixed;
+  top: 300px;
+  right: 0;
+  border: 1px solid #ccc;
+}
+
+#nav .backTop li:first-child a {
+  display: block;
+  width: 69px;
+  height: 30px;
+  background: url("../img/zouxiu.png") no-repeat 0 -260px;
+}
+
+#nav .backTop li:not(:first-child) a {
+  display: block;
+  width: 69px;
+  height: 57px;
+}
+
+#nav .backTop li:nth-child(2) {
+  background: url("../img/zouxiu.png") no-repeat -75px -260px;
+}
+
+#nav .backTop li:nth-child(3) {
+  background: url("../img/zouxiu.png") no-repeat -160px -260px;
+}
+
+#nav .backTop li:nth-child(4) {
+  background: url("../img/zouxiu.png") no-repeat -240px -260px;
+}
+
+#nav .backTop li:nth-child(5) {
+  background: url("../img/zouxiu.png") no-repeat -320px -260px;
+}
+
 #main .main_content {
   padding: 0 100px 0 100px;
   width: 1200px;
@@ -103,7 +145,6 @@
 #main .main_c {
   width: 1000px;
   height: 3442px;
-  background: yellow;
 }
 
 #main .main_c .main_ct {

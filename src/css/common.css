@@ -19,12 +19,12 @@
 #nav .nav_l{width: 950px;height: 50px;padding-left:260px;}
 #nav ul li{float: left;font-size: 12px;line-height: 50px;position: relative;}
 #nav ul li>a{font-size: 12px;color: #000;font-weight: bold;padding:0 22px 0 22px;}
-#nav ul li .nav_list{display: none;width: 745px;height: 395px;border: 1px solid #D7D7D7;background: #fff;padding: 15px 0 0 15px;position: absolute;top: 50px;left: 0;}
-#nav ul li .nav_list .nav_li{width: 450px;height: 378px;background-color: pink;}
+#nav ul li .nav_list{display: none;width: 745px;height: 395px;border: 1px solid #D7D7D7;background: #fff;padding: 15px 0 0 15px;position: absolute;top: 50px;left: 0;z-index:10;}
+#nav ul li .nav_list .nav_li{width: 450px;height: 378px;/*background-color: pink;*/}
 #nav ul li .nav_list .nav_li dt{font-size: 12px;line-height: 18px;font-weight: bold;color: #000;}
 #nav ul li .nav_list .nav_li dd{width: 340px;font-size: 12px;line-height: 18px;}
 #nav ul li .nav_list .nav_li dd a{padding-right: 5px;}
-#nav ul li .nav_list .nav_ri{width: 278px;height: 378px;background-color: yellow;padding-left: 35px;}
+#nav ul li .nav_list .nav_ri{width: 278px;height: 378px;/*background-color: yellow;*/padding-left: 35px;}
 #nav ul li .nav_list .nav_ri dt{width: 245px;font-size: 12px;line-height: 18px;font-weight: bold;}
 #nav ul li .nav_list .nav_ri dd{width: 245px;font-size: 12px;line-height: 18px;}
 #nav ul li .nav_list .nav_ri dd a{padding-right: 40px;}

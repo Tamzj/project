@@ -6,12 +6,14 @@
     <link rel="stylesheet" type="text/css" href="../css/base.css" />
     <link rel="stylesheet" type="text/css" href="../css/common.css" />
     <link rel="stylesheet" type="text/css" href="../css/goods.css" />
+    <link rel="stylesheet" type="text/css" href="../lib/jquery.gdsZoom/jquery.gdsZoom.css" />
+    <script src="../js/require.js" data-main="../js/goods"></script>
 </head>
 <body>
     <div id="header">
         <div class="container">
             <div class="header_t">
-                <div class="header_tl fl">  
+                <div class="header_tl fl">   
                     <ul>
                         <li><a href="./login.html">登录/注册</a></li>
                         <li><a href="#">购物袋<span>0</span>件</a></li>
@@ -94,6 +96,15 @@
             </div>
             
         </div>
+        <div class="backTop">
+            <ul>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+            </ul>
+        </div>
 
     </div>
     <div id="main">
@@ -104,17 +115,15 @@
                 </div>
                 <div class="main_content clearfix">
                     <div class="main_goodl">
-                        <div class="imgbox">
+                        <div class="imgbox" data-big="../img/goods3.png">
                             <img src="../img/goods3.png" />
                         </div>
-                        <div class="smallimg">
-                            <ul class="clearfix">
-                                <li><img src="../img/goods3.1.png" /></li>
-                                <li><img src="../img/goods3.1.png" /></li>
-                                <li><img src="../img/goods3.1.png" /></li>
-                                <li><img src="../img/goods3.1.png" /></li>
-                                <li><img src="../img/goods3.1.png" /></li>
-                            </ul>
+                        <div class="smallList">
+                            <img src="../img/goods3.png" />
+                            <img src="../img/goods3.png" />
+                            <img src="../img/goods3.png" />
+                            <img src="../img/goods3.png" />
+                            <img src="../img/goods3.png" />
                         </div>
                     </div>
                     <div class="main_goodr">
@@ -207,25 +216,22 @@
                         <img src="../img/goods7.png" />            
                     </div>
                     <div class="main_cobc">
-
-
-
-
-
-
-
-
-                    
                         <ul class="clearfix">
                             <li>
                             <img src="../img/goods8.png" />
-                                <span>已购买过此商品</span>
-                                <a href="#"></a>
+                                <p><span>laoxie</span></p>
+                                <p><a href="#">已购买过此商品</a></p>
                             </li>
                             <li>
-                                
+                                <img src="../img/goods8.1.png" />    
                             </li>
-                            <li></li>
+                            <li>
+                                <p>评分：<span> ★★★★★ </span> 颜色：<span> 白色</span></p>
+                                <p>尺码：<span>F</span></p>
+                                <p>该用户认为实际容量：<span>[合适]</span></p>
+                                <p class="main_con">物流很快 包包收到了，很喜欢这种极简风，非常满意，很喜欢他家的设计风格，时尚大气，以后还会继续支持</p>
+                                <p><a href="#">女士牛皮手提包 CR1402290BAHI01B1</a><span>发表于2017-06-10 18:23:31</span></p>
+                            </li>
                         </ul>
                     </div>
                     <div class="main_cobb">
@@ -240,9 +246,7 @@
                                 <span>4</span>
                             </li>
                             <li>下一页</li>
-                            <li>最后页</li>
-
-                            
+                            <li>最后页</li>    
                         </ul>
                     </div>
                 </div>

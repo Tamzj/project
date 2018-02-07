@@ -1,3 +1,19 @@
+#nav{position: relative;}
+#nav .backTop{width: 70px;height: 258px;position: fixed;top: 300px;right: 0;border: 1px solid #ccc;
+    li{
+        &:first-child{
+            a{display: block;width: 69px;height: 30px;background: url('../img/zouxiu.png') no-repeat 0 -260px;}
+        }
+        &:not(:first-child){
+            a{display: block;width: 69px;height: 57px;}    
+        }
+        &:nth-child(2){background: url('../img/zouxiu.png') no-repeat -75px -260px;}
+        &:nth-child(3){background: url('../img/zouxiu.png') no-repeat -160px -260px;}
+        &:nth-child(4){background: url('../img/zouxiu.png') no-repeat -240px -260px;}
+        &:nth-child(5){background: url('../img/zouxiu.png') no-repeat -320px -260px;}    
+    }
+    
+}
 #main .main_content{padding: 0 100px 0 100px;width: 1200px;}
 #main .main_t{width: 1000px;height: 283px;
     p.main_tt{width: 1000px;height: 120px;}
@@ -29,7 +45,7 @@
     }
     p.main_tb{width: 1000px;height: 40px;}
 }
-#main .main_c{width: 1000px;height: 3442px;background:yellow;
+#main .main_c{width: 1000px;height: 3442px;
     .main_ct{height: 47px;background: #F6F6F6;
         .main_ctl{float: left;padding: 15px 0 0 20px;margin-right: 30px;
             ul{
