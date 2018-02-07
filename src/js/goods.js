@@ -36,6 +36,14 @@ require(['config'],function(){
 
 
             //添加到购物车效果
+            var img = $('.imgbox img');
+            var bag = $('.bag');
+            $('.main_buy').on('click',function(){
+
+
+            })
+
+
             
 
 
