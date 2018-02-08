@@ -1,25 +1,66 @@
 require(['config'],function(){
     require(['jquery'],function(){
         jQuery(function($){
-            //模拟一份数据
-            var goods = {
-                name:'阿联酋美女',
-                age:18,
-                price:'20W',
-                imgurl:'img/g1.jpg'
-            }
-            //把对象拼接成字符串
-            var params = '';
-            for(var attr in goods){
-                params += attr + '=' + goods[attr] +'&';
-            }
-            
-            params = params.slice(0,-1);
+            //ajax获取数据
+            $.ajax({
+                url:'../api/list.php',
+                dataType:'json',
+                // data:{
 
-            //利用事件委托绑定事件
-            $('.main_cc').on('click','a',function(){
-                this.href='goods.html?' + params;
+                // }
+                success:function(data){
+                    console.log(data);
+
+                    //加载页面商品
+                    $ul = $('.main_cc ul');
+
+                    data.forEach(function(item){
+                        $html = '';
+                        $html += `<li data-id="${item.id}">
+                                    <a href="#"><img src="../img/${item.img}" /></a>
+                                    <p>
+                                        <span>${item.brand}</span>
+                                        <a href="#">${item.name}</a>
+                                        <span>￥${item.price}</span>
+                                    </p>
+                                </li>`;
+
+                        $ul.append($html);
+
+                    })
+
+                    //分页效果
+
+
+
+
+
+
+
+
+                    //页面传参
+                    //利用事件委托绑定事件
+                    $('.main_cc').on('click','a',function(){
+                        $id = this.closest('li').dataset.id;
+                        this.href='goods.html?' + $id;
+                    })
+
+
+
+                }
+
+
+
+
+
             })
+
+
+
+
+
+
+
 
         })
     })

@@ -7,17 +7,36 @@ require(['config'],function(){
                 width:1200,
                 type:'fade',
                 button:'false'
-            })
-
-            
-
-            
-
-            
-
-
-
+            }),
+                    console.log(666);
 
         })
     })
+    //ajax加载数据
+    require(['jquery'],function(){
+        jQuery(function($){
+            $.ajax({
+                url:'../api/home.php', 
+                dataType:'json',
+                // data:{
+                //     brand:'m'
+                // },
+                success:function(data){
+                    console.log(data);
+                    //获取、创建元素
+                    var ul = $('.main_find ul');
+
+                    data.forEach(function(item){
+                        var html = '';
+                        html += '<li><a href="#"><img src="' + item.img + '" /></a></li>';
+                        ul.append(html);
+
+                    })
+                    
+
+                }
+            })
+        })
+    })
+
 });
