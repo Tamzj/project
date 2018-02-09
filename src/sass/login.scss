@@ -33,19 +33,20 @@ $t4:red;
                 $border:1px solid #D8D8D8;
 
                 width: $rw;/* height: 270px; */padding: 20px 0 0 58px;
+                p{width: 300px;height: 35px;padding-left: 5px;color: red;}
                 li{
-                    &:first-child{
+                    &:nth-child(2){
                         #username{width: 300px;height: 35px;border: $border;padding-left: 5px;}
                     }
-                    &:nth-child(2){
+                    &:nth-child(3){
                         margin-top: 20px;
                         #password{width: 300px;height: 35px;border: $border;padding-left: 5px;}   
                     }
-                    &:nth-child(3){
+                    &:nth-child(4){
                         margin-top: 15px;padding-left: 190px;
                         a{display: inline-block;font-size: 10px;padding: 0 3px 0 3px;}   
                     }
-                    &:nth-child(4){
+                    &:nth-child(5){
                         margin-top: 20px;
                         button{width: 300px;height: 40px;background: #D2041F;font-size: 15px;color: #fff;letter-spacing: 20px;border-radius: 20px;}
                     } 

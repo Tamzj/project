@@ -5,10 +5,11 @@
     <title>注册</title>
     <link rel="stylesheet" type="text/css" href="../css/base.css" />
     <link rel="stylesheet" type="text/css" href="../css/reg.css" />
+    <script src="../js/require.js" data-main="../js/reg"></script>
 </head>
 <body>
     <div id="header">
-        <div class="container">
+        <div class="container"> 
             <h1></h1>    
         </div>
     </div> 
@@ -19,21 +20,24 @@
                 <div class="reg">
                     <div class="reg_title">
                         <a href="#">短信登陆</a>
-                        <a href="#">密码登陆</a>
+                        <a href="./login.html">密码登陆</a>  
                     </div>
                     <div class="reg_main">
                         <ul>
                             <li>
+                                <p class="userConfirm"></p>
                                 <input type="text" id="username" name="username" placeholder="手机号码"/>
                             </li>
                             <li>
                                 <p>新手机号将认为接受<a href="#">《走秀网用户协议》</a>并自动注册账号</p>
                             </li>
                             <li>
+                                <p class="vCodeConfirm"></p>
                                 <input type="text" id="vCode" name="vCode"  placeholder="验证码" />
-                                <span>1234</span><a href="#">换一换</a>
+                                <span class="ranCode">1234</span><a href="#">换一换</a>
                             </li>
                             <li>
+                                <p class="mCodeConfirm"></p>
                                 <input type="text" id="mCode" name="mCode"  placeholder="短信验证码" />
                                 <span>获取验证码</span>     
                             </li>

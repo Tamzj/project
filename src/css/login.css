@@ -70,18 +70,14 @@
   padding: 20px 0 0 58px;
 }
 
-#main .main_r .reg .reg_main li:first-child #username {
+#main .main_r .reg .reg_main p {
   width: 300px;
   height: 35px;
-  border: 1px solid #D8D8D8;
   padding-left: 5px;
+  color: red;
 }
 
-#main .main_r .reg .reg_main li:nth-child(2) {
-  margin-top: 20px;
-}
-
-#main .main_r .reg .reg_main li:nth-child(2) #password {
+#main .main_r .reg .reg_main li:nth-child(2) #username {
   width: 300px;
   height: 35px;
   border: 1px solid #D8D8D8;
@@ -89,21 +85,32 @@
 }
 
 #main .main_r .reg .reg_main li:nth-child(3) {
+  margin-top: 20px;
+}
+
+#main .main_r .reg .reg_main li:nth-child(3) #password {
+  width: 300px;
+  height: 35px;
+  border: 1px solid #D8D8D8;
+  padding-left: 5px;
+}
+
+#main .main_r .reg .reg_main li:nth-child(4) {
   margin-top: 15px;
   padding-left: 190px;
 }
 
-#main .main_r .reg .reg_main li:nth-child(3) a {
+#main .main_r .reg .reg_main li:nth-child(4) a {
   display: inline-block;
   font-size: 10px;
   padding: 0 3px 0 3px;
 }
 
-#main .main_r .reg .reg_main li:nth-child(4) {
+#main .main_r .reg .reg_main li:nth-child(5) {
   margin-top: 20px;
 }
 
-#main .main_r .reg .reg_main li:nth-child(4) button {
+#main .main_r .reg .reg_main li:nth-child(5) button {
   width: 300px;
   height: 40px;
   background: #D2041F;

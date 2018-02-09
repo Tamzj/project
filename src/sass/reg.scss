@@ -36,6 +36,7 @@ $t4:red;
                 width: $rw;/* height: 270px; */padding: 20px 0 0 58px;
                 li{
                     &:first-child{
+                        .userConfirm{width: 300px;height: 20px;color: red;}
                         #username{width: 300px;height: 35px;border: $border;padding-left: 5px;}
                         }
                     &:nth-child(2){
@@ -45,12 +46,14 @@ $t4:red;
                     }
                     &:nth-child(3){
                         margin-top: 15px;
+                        .vCodeConfirm{width: 300px;height: 20px;color: red;}
                         #vCode{width: 125px;height: 35px;border: $border;vertical-align: middle;padding-left: 5px;}
                         span{display: inline-block;width: 78px;height: 35px;border: 1px solid #000;line-height: 35px;text-align: center;font-size: 20px;background: #D7D7D7;vertical-align: middle;margin: 0 10px 0 5px;}
                         a{font-size: 10px;color: #005BA1;}
                     }
                     &:nth-child(4){
                         margin-top: 15px;
+                        .mCodeConfirm{width: 300px;height: 20px;color: red;}
                         #mCode{width: 188px;height: 35px;border: $border;vertical-align: middle;padding-left: 5px;}
                         span{display: inline-block;width: 100px;height: 35px;border:$border;line-height: 35px;text-align: center;font-size: 10px;background: #F7F7F9;vertical-align: middle;margin-left: 5px;color: #464646;}   
                     }

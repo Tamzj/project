@@ -74,6 +74,12 @@
   padding: 20px 0 0 58px;
 }
 
+#main .main_r .reg .reg_main li:first-child .userConfirm {
+  width: 300px;
+  height: 20px;
+  color: red;
+}
+
 #main .main_r .reg .reg_main li:first-child #username {
   width: 300px;
   height: 35px;
@@ -92,6 +98,12 @@
 
 #main .main_r .reg .reg_main li:nth-child(3) {
   margin-top: 15px;
+}
+
+#main .main_r .reg .reg_main li:nth-child(3) .vCodeConfirm {
+  width: 300px;
+  height: 20px;
+  color: red;
 }
 
 #main .main_r .reg .reg_main li:nth-child(3) #vCode {
@@ -122,6 +134,12 @@
 
 #main .main_r .reg .reg_main li:nth-child(4) {
   margin-top: 15px;
+}
+
+#main .main_r .reg .reg_main li:nth-child(4) .mCodeConfirm {
+  width: 300px;
+  height: 20px;
+  color: red;
 }
 
 #main .main_r .reg .reg_main li:nth-child(4) #mCode {
